@@ -1,0 +1,32 @@
+
+#include <iostream>
+using namespace std;
+
+
+int main() {
+    
+    
+    int arr[]= {55,99999,23,67,67,908,789};
+     int b=arr[0];
+    int m=(sizeof(arr)/sizeof(arr[0])-1);
+    
+    for (int i=0; i<=m; i++){
+    
+        
+        if(arr[i]<b){     /// min elemnt in array
+        ///if(arr[i]>b)  max elemnt of array
+             b=arr[i];
+           
+            
+        }
+       
+        
+       
+       
+    }
+    
+   cout <<b;
+    
+    
+    return 0;
+}
